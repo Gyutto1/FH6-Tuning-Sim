@@ -1,0 +1,79 @@
+{
+  "group": "car_class",
+  "name_zh": "车辆等级",
+  "name_en": "Car Classes",
+  "items": [
+    {
+      "key": "D",
+      "label_zh": "D 级",
+      "label_en": "D",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "C",
+      "label_zh": "C 级",
+      "label_en": "C",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "B",
+      "label_zh": "B 级",
+      "label_en": "B",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "A",
+      "label_zh": "A 级",
+      "label_en": "A",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "S1",
+      "label_zh": "S1 级",
+      "label_en": "S1",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "S2",
+      "label_zh": "S2 级",
+      "label_en": "S2",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    },
+    {
+      "key": "X",
+      "label_zh": "X 级",
+      "label_en": "X",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 70
+    },
+    {
+      "key": "unknown",
+      "label_zh": "未知",
+      "label_en": "Unknown",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 999
+    }
+  ]
+}

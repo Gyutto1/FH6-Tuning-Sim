@@ -1,0 +1,1493 @@
+{
+  "updated_at_utc": "2026-05-31T00:13:28+00:00",
+  "runs": [
+    {
+      "session_id": "20260530_082410_road_test",
+      "created_at": "2026-05-30T07:24:10+00:00",
+      "car_name": "Mercedes-AMG GT",
+      "car_ordinal": 4265,
+      "car_class": "unknown",
+      "performance_index": 900,
+      "drivetrain": "RWD",
+      "car_group": 43,
+      "detected_car_ordinal": 4265,
+      "detected_car_class": 5,
+      "detected_performance_index": 900,
+      "detected_drivetrain_type": 1,
+      "detected_drivetrain": "RWD",
+      "detected_num_cylinders": 8,
+      "detected_car_group": 43,
+      "use_case": "road_grip",
+      "run_type": "normal_recording",
+      "survey_type": null,
+      "is_for_route_profile": false,
+      "survey_speed_note": "",
+      "route_name": "unknown",
+      "surface_type": "unknown",
+      "test_scenario": "unknown",
+      "purpose": "",
+      "purpose_tags": [],
+      "driver_input_style": "unknown",
+      "tune_name": "stock_default",
+      "tune_version": "",
+      "duration_seconds": 901.594,
+      "packet_count": 41316,
+      "estimated_sample_rate": 45.826,
+      "raw_csv_path": "data\\raw\\20260530_082410_road_test.csv",
+      "processed_csv_path": "data\\processed\\20260530_082410_road_test_processed.csv",
+      "plot_path": "reports\\20260530_082410_road_test_timeseries.png",
+      "report_path": "reports\\20260530_082410_road_test_report.md",
+      "dataset_path": null,
+      "tune_snapshot_path": "data\\sessions\\20260530_082410_road_test_tune.json",
+      "metadata_path": "data\\sessions\\20260530_082410_road_test_meta.json",
+      "notes": "baseline run",
+      "tags": [],
+      "intent_tags": [],
+      "behavior_tags": [],
+      "data_status_tags": [],
+      "quality_state_tags": [],
+      "handling_scores": {},
+      "subjective_scores": {},
+      "review_notes": "",
+      "quality_status": "warning",
+      "quality_warnings": [
+        "missing context: scenario, route, surface, purpose_or_tags"
+      ],
+      "metadata_completeness_score": 33.3,
+      "run_quality_score": 70.0,
+      "comparability_score": 63.3,
+      "modeling_readiness_score": 76.7,
+      "state_tag_counts": {
+        "idle": 32,
+        "stopped": 841,
+        "possible_pause": 809,
+        "recording_gap": 2,
+        "menu_or_no_data": 809
+      },
+      "detected_lap_count": 3,
+      "detected_lap_reset_count": 2,
+      "laps": [
+        {
+          "detected_lap_id": 1,
+          "lap_number_raw": 0,
+          "sample_count": 20688,
+          "session_start_seconds": 0.0,
+          "session_end_seconds": 457.937,
+          "duration_seconds": 457.937
+        },
+        {
+          "detected_lap_id": 2,
+          "lap_number_raw": 1,
+          "sample_count": 20249,
+          "session_start_seconds": 457.953,
+          "session_end_seconds": 895.094,
+          "duration_seconds": 437.141
+        },
+        {
+          "detected_lap_id": 3,
+          "lap_number_raw": 0,
+          "sample_count": 379,
+          "session_start_seconds": 895.109,
+          "session_end_seconds": 901.594,
+          "duration_seconds": 6.485
+        }
+      ],
+      "segments": [],
+      "quality": {
+        "packet_count": 41316,
+        "duration_seconds": 901.594,
+        "estimated_sample_rate": 45.826,
+        "timestamp_start": 18171531.0,
+        "timestamp_end": 19073125.0,
+        "timestamp_gap_mean": 21.822,
+        "timestamp_gap_max": 406.0,
+        "large_gap_count": 2,
+        "is_race_on_ratio": 0.9804,
+        "speed_valid_ratio": 1.0,
+        "zero_speed_ratio": 0.0204,
+        "smashable_event_count": 18,
+        "rumble_strip_event_count": 0,
+        "puddle_event_count": 0,
+        "suspension_bottoming_count": 258,
+        "behavior_event_counts": {
+          "smashable": 18,
+          "rumble_strip": 0,
+          "puddle": 0,
+          "suspension_bottoming": 258
+        },
+        "state_tag_counts": {
+          "idle": 32,
+          "stopped": 841,
+          "possible_pause": 809,
+          "recording_gap": 2,
+          "menu_or_no_data": 809
+        },
+        "detected_lap_count": 3,
+        "detected_lap_reset_count": 2,
+        "lap_summaries": [
+          {
+            "detected_lap_id": 1,
+            "lap_number_raw": 0,
+            "sample_count": 20688,
+            "session_start_seconds": 0.0,
+            "session_end_seconds": 457.937,
+            "duration_seconds": 457.937
+          },
+          {
+            "detected_lap_id": 2,
+            "lap_number_raw": 1,
+            "sample_count": 20249,
+            "session_start_seconds": 457.953,
+            "session_end_seconds": 895.094,
+            "duration_seconds": 437.141
+          },
+          {
+            "detected_lap_id": 3,
+            "lap_number_raw": 0,
+            "sample_count": 379,
+            "session_start_seconds": 895.109,
+            "session_end_seconds": 901.594,
+            "duration_seconds": 6.485
+          }
+        ],
+        "missing_value_count": 0,
+        "detected_car_ordinal": 4265,
+        "detected_car_class": 5,
+        "detected_performance_index": 900,
+        "detected_drivetrain_type": 1,
+        "detected_drivetrain": "RWD",
+        "detected_num_cylinders": 8,
+        "detected_car_group": 43,
+        "data_integrity_score": 100.0,
+        "run_quality_score": 70.0,
+        "modeling_readiness_score": 76.7,
+        "comparability_score": 63.3,
+        "quality_status": "warning",
+        "quality_warnings": [
+          "missing context: scenario, route, surface, purpose_or_tags"
+        ],
+        "metadata_completeness_score": 33.3,
+        "context_fields": {
+          "vehicle": "Mercedes-AMG GT",
+          "tune": "stock_default",
+          "scenario": null,
+          "route": null,
+          "surface": null,
+          "purpose_or_tags": null
+        },
+        "missing_context_fields": [
+          "scenario",
+          "route",
+          "surface",
+          "purpose_or_tags"
+        ],
+        "quality_definition": "质量表示数据是否有清楚上下文、能否被解释、能否比较、能否用于后续建模；推头、甩尾、打滑、失控属于行为标签，不是质量惩罚。"
+      },
+      "car_id": "car_ordinal_4265",
+      "tune_id": "car_ordinal_4265__tune__stock_default__v00",
+      "dataset_group_id": "car_ordinal_4265__group__unknown__unknown__unknown__baseline"
+    },
+    {
+      "session_id": "20260530_080256_road_test",
+      "created_at": "2026-05-30T07:02:56+00:00",
+      "car_name": "Mercedes-AMG GT",
+      "car_ordinal": 4265,
+      "car_class": "unknown",
+      "performance_index": 900,
+      "drivetrain": "RWD",
+      "car_group": 43,
+      "detected_car_ordinal": 4265,
+      "detected_car_class": 5,
+      "detected_performance_index": 900,
+      "detected_drivetrain_type": 1,
+      "detected_drivetrain": "RWD",
+      "detected_num_cylinders": 8,
+      "detected_car_group": 43,
+      "use_case": "road_grip",
+      "run_type": "normal_recording",
+      "survey_type": null,
+      "is_for_route_profile": false,
+      "survey_speed_note": "",
+      "route_name": "unknown",
+      "surface_type": "unknown",
+      "test_scenario": "unknown",
+      "purpose": "",
+      "purpose_tags": [],
+      "driver_input_style": "unknown",
+      "tune_name": "stock_default",
+      "tune_version": "",
+      "duration_seconds": 25.594,
+      "packet_count": 1382,
+      "estimated_sample_rate": 53.997,
+      "raw_csv_path": "data\\raw\\20260530_080256_road_test.csv",
+      "processed_csv_path": "data\\processed\\20260530_080256_road_test_processed.csv",
+      "plot_path": "reports\\20260530_080256_road_test_timeseries.png",
+      "report_path": "reports\\20260530_080256_road_test_report.md",
+      "dataset_path": null,
+      "tune_snapshot_path": "data\\sessions\\20260530_080256_road_test_tune.json",
+      "metadata_path": "data\\sessions\\20260530_080256_road_test_meta.json",
+      "notes": "baseline run",
+      "tags": [],
+      "intent_tags": [],
+      "behavior_tags": [],
+      "data_status_tags": [],
+      "quality_state_tags": [],
+      "handling_scores": {},
+      "subjective_scores": {},
+      "review_notes": "",
+      "quality_status": "warning",
+      "quality_warnings": [
+        "pause/gap state should be reviewed",
+        "missing context: scenario, route, surface, purpose_or_tags"
+      ],
+      "metadata_completeness_score": 33.3,
+      "run_quality_score": 64.5,
+      "comparability_score": 58.8,
+      "modeling_readiness_score": 70.2,
+      "state_tag_counts": {
+        "idle": 0,
+        "stopped": 730,
+        "possible_pause": 730,
+        "recording_gap": 2,
+        "menu_or_no_data": 730
+      },
+      "detected_lap_count": 1,
+      "detected_lap_reset_count": 0,
+      "laps": [
+        {
+          "detected_lap_id": 1,
+          "lap_number_raw": 0,
+          "sample_count": 1382,
+          "session_start_seconds": 0.0,
+          "session_end_seconds": 25.594,
+          "duration_seconds": 25.594
+        }
+      ],
+      "segments": [],
+      "quality": {
+        "packet_count": 1382,
+        "duration_seconds": 25.594,
+        "estimated_sample_rate": 53.997,
+        "timestamp_start": 16896843.0,
+        "timestamp_end": 16922437.0,
+        "timestamp_gap_mean": 18.533,
+        "timestamp_gap_max": 593.0,
+        "large_gap_count": 2,
+        "is_race_on_ratio": 0.4718,
+        "speed_valid_ratio": 1.0,
+        "zero_speed_ratio": 0.5282,
+        "smashable_event_count": 0,
+        "rumble_strip_event_count": 0,
+        "puddle_event_count": 0,
+        "suspension_bottoming_count": 0,
+        "behavior_event_counts": {
+          "smashable": 0,
+          "rumble_strip": 0,
+          "puddle": 0,
+          "suspension_bottoming": 0
+        },
+        "state_tag_counts": {
+          "idle": 0,
+          "stopped": 730,
+          "possible_pause": 730,
+          "recording_gap": 2,
+          "menu_or_no_data": 730
+        },
+        "detected_lap_count": 1,
+        "detected_lap_reset_count": 0,
+        "lap_summaries": [
+          {
+            "detected_lap_id": 1,
+            "lap_number_raw": 0,
+            "sample_count": 1382,
+            "session_start_seconds": 0.0,
+            "session_end_seconds": 25.594,
+            "duration_seconds": 25.594
+          }
+        ],
+        "missing_value_count": 0,
+        "detected_car_ordinal": 4265,
+        "detected_car_class": 5,
+        "detected_performance_index": 900,
+        "detected_drivetrain_type": 1,
+        "detected_drivetrain": "RWD",
+        "detected_num_cylinders": 8,
+        "detected_car_group": 43,
+        "data_integrity_score": 90.0,
+        "run_quality_score": 64.5,
+        "modeling_readiness_score": 70.2,
+        "comparability_score": 58.8,
+        "quality_status": "warning",
+        "quality_warnings": [
+          "pause/gap state should be reviewed",
+          "missing context: scenario, route, surface, purpose_or_tags"
+        ],
+        "metadata_completeness_score": 33.3,
+        "context_fields": {
+          "vehicle": "Mercedes-AMG GT",
+          "tune": "stock_default",
+          "scenario": null,
+          "route": null,
+          "surface": null,
+          "purpose_or_tags": null
+        },
+        "missing_context_fields": [
+          "scenario",
+          "route",
+          "surface",
+          "purpose_or_tags"
+        ],
+        "quality_definition": "质量表示数据是否有清楚上下文、能否被解释、能否比较、能否用于后续建模；推头、甩尾、打滑、失控属于行为标签，不是质量惩罚。"
+      },
+      "car_id": "car_ordinal_4265",
+      "tune_id": "car_ordinal_4265__tune__stock_default__v00",
+      "dataset_group_id": "car_ordinal_4265__group__unknown__unknown__unknown__baseline"
+    },
+    {
+      "session_id": "demo_udp",
+      "created_at": "2026-05-30T06:58:42+00:00",
+      "car_name": "demo car",
+      "car_ordinal": 0,
+      "car_class": "unknown",
+      "performance_index": 0,
+      "drivetrain": "AWD",
+      "car_group": 0,
+      "detected_car_ordinal": 0,
+      "detected_car_class": 0,
+      "detected_performance_index": 0,
+      "detected_drivetrain_type": 0,
+      "detected_drivetrain": "FWD",
+      "detected_num_cylinders": 0,
+      "detected_car_group": 0,
+      "use_case": "udp_demo",
+      "run_type": "normal_recording",
+      "survey_type": null,
+      "is_for_route_profile": false,
+      "survey_speed_note": "",
+      "route_name": "unknown",
+      "surface_type": "unknown",
+      "test_scenario": "unknown",
+      "purpose": "",
+      "purpose_tags": [],
+      "driver_input_style": "unknown",
+      "tune_name": "baseline_001",
+      "tune_version": "",
+      "duration_seconds": 2.12,
+      "packet_count": 240,
+      "estimated_sample_rate": 113.208,
+      "raw_csv_path": "data\\raw\\demo_udp.csv",
+      "processed_csv_path": "data\\processed\\demo_udp_processed.csv",
+      "plot_path": "reports\\demo_udp_timeseries.png",
+      "report_path": "reports\\demo_udp_report.md",
+      "dataset_path": null,
+      "tune_snapshot_path": "data\\sessions\\demo_udp_tune.json",
+      "metadata_path": "data\\sessions\\demo_udp_meta.json",
+      "notes": "local UDP demo generated by fh6_launcher",
+      "tags": [],
+      "intent_tags": [],
+      "behavior_tags": [],
+      "data_status_tags": [],
+      "quality_state_tags": [],
+      "handling_scores": {},
+      "subjective_scores": {},
+      "review_notes": "",
+      "quality_status": "warning",
+      "quality_warnings": [
+        "duration is short",
+        "missing context: scenario, route, surface, purpose_or_tags"
+      ],
+      "metadata_completeness_score": 33.3,
+      "run_quality_score": 61.7,
+      "comparability_score": 56.6,
+      "modeling_readiness_score": 66.9,
+      "state_tag_counts": {
+        "idle": 77,
+        "stopped": 77,
+        "possible_pause": 0,
+        "recording_gap": 0,
+        "menu_or_no_data": 0
+      },
+      "detected_lap_count": 53,
+      "detected_lap_reset_count": 52,
+      "laps": [
+        {
+          "detected_lap_id": 1,
+          "lap_number_raw": 0,
+          "sample_count": 26,
+          "session_start_seconds": 0.0,
+          "session_end_seconds": 0.344,
+          "duration_seconds": 0.344
+        },
+        {
+          "detected_lap_id": 2,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.344,
+          "session_end_seconds": 0.376,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 3,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.376,
+          "session_end_seconds": 0.408,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 4,
+          "lap_number_raw": 1,
+          "sample_count": 5,
+          "session_start_seconds": 0.408,
+          "session_end_seconds": 0.456,
+          "duration_seconds": 0.048
+        },
+        {
+          "detected_lap_id": 5,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.456,
+          "session_end_seconds": 0.488,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 6,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.488,
+          "session_end_seconds": 0.52,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 7,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.52,
+          "session_end_seconds": 0.552,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 8,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.552,
+          "session_end_seconds": 0.584,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 9,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.584,
+          "session_end_seconds": 0.616,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 10,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.616,
+          "session_end_seconds": 0.648,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 11,
+          "lap_number_raw": 1,
+          "sample_count": 5,
+          "session_start_seconds": 0.648,
+          "session_end_seconds": 0.696,
+          "duration_seconds": 0.048
+        },
+        {
+          "detected_lap_id": 12,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.696,
+          "session_end_seconds": 0.728,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 13,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.728,
+          "session_end_seconds": 0.76,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 14,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.76,
+          "session_end_seconds": 0.792,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 15,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.792,
+          "session_end_seconds": 0.824,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 16,
+          "lap_number_raw": 1,
+          "sample_count": 5,
+          "session_start_seconds": 0.824,
+          "session_end_seconds": 0.872,
+          "duration_seconds": 0.048
+        },
+        {
+          "detected_lap_id": 17,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.872,
+          "session_end_seconds": 0.904,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 18,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.904,
+          "session_end_seconds": 0.936,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 19,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.936,
+          "session_end_seconds": 0.968,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 20,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 0.968,
+          "session_end_seconds": 1.0,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 21,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.0,
+          "session_end_seconds": 1.032,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 22,
+          "lap_number_raw": 1,
+          "sample_count": 5,
+          "session_start_seconds": 1.032,
+          "session_end_seconds": 1.08,
+          "duration_seconds": 0.048
+        },
+        {
+          "detected_lap_id": 23,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.08,
+          "session_end_seconds": 1.112,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 24,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.112,
+          "session_end_seconds": 1.144,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 25,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.144,
+          "session_end_seconds": 1.176,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 26,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.176,
+          "session_end_seconds": 1.208,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 27,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.208,
+          "session_end_seconds": 1.24,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 28,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.24,
+          "session_end_seconds": 1.272,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 29,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.272,
+          "session_end_seconds": 1.304,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 30,
+          "lap_number_raw": 1,
+          "sample_count": 5,
+          "session_start_seconds": 1.304,
+          "session_end_seconds": 1.352,
+          "duration_seconds": 0.048
+        },
+        {
+          "detected_lap_id": 31,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.352,
+          "session_end_seconds": 1.384,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 32,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.384,
+          "session_end_seconds": 1.416,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 33,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.416,
+          "session_end_seconds": 1.448,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 34,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.448,
+          "session_end_seconds": 1.48,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 35,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.48,
+          "session_end_seconds": 1.512,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 36,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.512,
+          "session_end_seconds": 1.544,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 37,
+          "lap_number_raw": 1,
+          "sample_count": 5,
+          "session_start_seconds": 1.544,
+          "session_end_seconds": 1.592,
+          "duration_seconds": 0.048
+        },
+        {
+          "detected_lap_id": 38,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.592,
+          "session_end_seconds": 1.624,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 39,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.624,
+          "session_end_seconds": 1.656,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 40,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.656,
+          "session_end_seconds": 1.688,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 41,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.688,
+          "session_end_seconds": 1.72,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 42,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.72,
+          "session_end_seconds": 1.752,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 43,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.752,
+          "session_end_seconds": 1.784,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 44,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.784,
+          "session_end_seconds": 1.816,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 45,
+          "lap_number_raw": 1,
+          "sample_count": 5,
+          "session_start_seconds": 1.816,
+          "session_end_seconds": 1.864,
+          "duration_seconds": 0.048
+        },
+        {
+          "detected_lap_id": 46,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.864,
+          "session_end_seconds": 1.896,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 47,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.896,
+          "session_end_seconds": 1.928,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 48,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.928,
+          "session_end_seconds": 1.96,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 49,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.96,
+          "session_end_seconds": 1.992,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 50,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 1.992,
+          "session_end_seconds": 2.024,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 51,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 2.024,
+          "session_end_seconds": 2.056,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 52,
+          "lap_number_raw": 1,
+          "sample_count": 4,
+          "session_start_seconds": 2.056,
+          "session_end_seconds": 2.088,
+          "duration_seconds": 0.032
+        },
+        {
+          "detected_lap_id": 53,
+          "lap_number_raw": 1,
+          "sample_count": 3,
+          "session_start_seconds": 2.088,
+          "session_end_seconds": 2.12,
+          "duration_seconds": 0.032
+        }
+      ],
+      "segments": [],
+      "quality": {
+        "packet_count": 240,
+        "duration_seconds": 2.12,
+        "estimated_sample_rate": 113.208,
+        "timestamp_start": 0.0,
+        "timestamp_end": 16644453.0,
+        "timestamp_gap_mean": 69642.063,
+        "timestamp_gap_max": 16640798.0,
+        "large_gap_count": 1,
+        "is_race_on_ratio": 1.0,
+        "speed_valid_ratio": 1.0,
+        "zero_speed_ratio": 0.3208,
+        "smashable_event_count": 0,
+        "rumble_strip_event_count": 0,
+        "puddle_event_count": 0,
+        "suspension_bottoming_count": 0,
+        "behavior_event_counts": {
+          "smashable": 0,
+          "rumble_strip": 0,
+          "puddle": 0,
+          "suspension_bottoming": 0
+        },
+        "state_tag_counts": {
+          "idle": 77,
+          "stopped": 77,
+          "possible_pause": 0,
+          "recording_gap": 0,
+          "menu_or_no_data": 0
+        },
+        "detected_lap_count": 53,
+        "detected_lap_reset_count": 52,
+        "lap_summaries": [
+          {
+            "detected_lap_id": 1,
+            "lap_number_raw": 0,
+            "sample_count": 26,
+            "session_start_seconds": 0.0,
+            "session_end_seconds": 0.344,
+            "duration_seconds": 0.344
+          },
+          {
+            "detected_lap_id": 2,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.344,
+            "session_end_seconds": 0.376,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 3,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.376,
+            "session_end_seconds": 0.408,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 4,
+            "lap_number_raw": 1,
+            "sample_count": 5,
+            "session_start_seconds": 0.408,
+            "session_end_seconds": 0.456,
+            "duration_seconds": 0.048
+          },
+          {
+            "detected_lap_id": 5,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.456,
+            "session_end_seconds": 0.488,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 6,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.488,
+            "session_end_seconds": 0.52,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 7,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.52,
+            "session_end_seconds": 0.552,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 8,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.552,
+            "session_end_seconds": 0.584,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 9,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.584,
+            "session_end_seconds": 0.616,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 10,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.616,
+            "session_end_seconds": 0.648,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 11,
+            "lap_number_raw": 1,
+            "sample_count": 5,
+            "session_start_seconds": 0.648,
+            "session_end_seconds": 0.696,
+            "duration_seconds": 0.048
+          },
+          {
+            "detected_lap_id": 12,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.696,
+            "session_end_seconds": 0.728,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 13,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.728,
+            "session_end_seconds": 0.76,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 14,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.76,
+            "session_end_seconds": 0.792,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 15,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.792,
+            "session_end_seconds": 0.824,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 16,
+            "lap_number_raw": 1,
+            "sample_count": 5,
+            "session_start_seconds": 0.824,
+            "session_end_seconds": 0.872,
+            "duration_seconds": 0.048
+          },
+          {
+            "detected_lap_id": 17,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.872,
+            "session_end_seconds": 0.904,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 18,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.904,
+            "session_end_seconds": 0.936,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 19,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.936,
+            "session_end_seconds": 0.968,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 20,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 0.968,
+            "session_end_seconds": 1.0,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 21,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.0,
+            "session_end_seconds": 1.032,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 22,
+            "lap_number_raw": 1,
+            "sample_count": 5,
+            "session_start_seconds": 1.032,
+            "session_end_seconds": 1.08,
+            "duration_seconds": 0.048
+          },
+          {
+            "detected_lap_id": 23,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.08,
+            "session_end_seconds": 1.112,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 24,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.112,
+            "session_end_seconds": 1.144,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 25,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.144,
+            "session_end_seconds": 1.176,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 26,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.176,
+            "session_end_seconds": 1.208,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 27,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.208,
+            "session_end_seconds": 1.24,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 28,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.24,
+            "session_end_seconds": 1.272,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 29,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.272,
+            "session_end_seconds": 1.304,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 30,
+            "lap_number_raw": 1,
+            "sample_count": 5,
+            "session_start_seconds": 1.304,
+            "session_end_seconds": 1.352,
+            "duration_seconds": 0.048
+          },
+          {
+            "detected_lap_id": 31,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.352,
+            "session_end_seconds": 1.384,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 32,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.384,
+            "session_end_seconds": 1.416,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 33,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.416,
+            "session_end_seconds": 1.448,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 34,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.448,
+            "session_end_seconds": 1.48,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 35,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.48,
+            "session_end_seconds": 1.512,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 36,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.512,
+            "session_end_seconds": 1.544,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 37,
+            "lap_number_raw": 1,
+            "sample_count": 5,
+            "session_start_seconds": 1.544,
+            "session_end_seconds": 1.592,
+            "duration_seconds": 0.048
+          },
+          {
+            "detected_lap_id": 38,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.592,
+            "session_end_seconds": 1.624,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 39,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.624,
+            "session_end_seconds": 1.656,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 40,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.656,
+            "session_end_seconds": 1.688,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 41,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.688,
+            "session_end_seconds": 1.72,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 42,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.72,
+            "session_end_seconds": 1.752,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 43,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.752,
+            "session_end_seconds": 1.784,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 44,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.784,
+            "session_end_seconds": 1.816,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 45,
+            "lap_number_raw": 1,
+            "sample_count": 5,
+            "session_start_seconds": 1.816,
+            "session_end_seconds": 1.864,
+            "duration_seconds": 0.048
+          },
+          {
+            "detected_lap_id": 46,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.864,
+            "session_end_seconds": 1.896,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 47,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.896,
+            "session_end_seconds": 1.928,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 48,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.928,
+            "session_end_seconds": 1.96,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 49,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.96,
+            "session_end_seconds": 1.992,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 50,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 1.992,
+            "session_end_seconds": 2.024,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 51,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 2.024,
+            "session_end_seconds": 2.056,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 52,
+            "lap_number_raw": 1,
+            "sample_count": 4,
+            "session_start_seconds": 2.056,
+            "session_end_seconds": 2.088,
+            "duration_seconds": 0.032
+          },
+          {
+            "detected_lap_id": 53,
+            "lap_number_raw": 1,
+            "sample_count": 3,
+            "session_start_seconds": 2.088,
+            "session_end_seconds": 2.12,
+            "duration_seconds": 0.032
+          }
+        ],
+        "missing_value_count": 0,
+        "detected_car_ordinal": 0,
+        "detected_car_class": 0,
+        "detected_performance_index": 0,
+        "detected_drivetrain_type": 0,
+        "detected_drivetrain": "FWD",
+        "detected_num_cylinders": 0,
+        "detected_car_group": 0,
+        "data_integrity_score": 85.0,
+        "run_quality_score": 61.7,
+        "modeling_readiness_score": 66.9,
+        "comparability_score": 56.6,
+        "quality_status": "warning",
+        "quality_warnings": [
+          "duration is short",
+          "missing context: scenario, route, surface, purpose_or_tags"
+        ],
+        "metadata_completeness_score": 33.3,
+        "context_fields": {
+          "vehicle": "demo car",
+          "tune": "baseline_001",
+          "scenario": null,
+          "route": null,
+          "surface": null,
+          "purpose_or_tags": null
+        },
+        "missing_context_fields": [
+          "scenario",
+          "route",
+          "surface",
+          "purpose_or_tags"
+        ],
+        "quality_definition": "质量表示数据是否有清楚上下文、能否被解释、能否比较、能否用于后续建模；推头、甩尾、打滑、失控属于行为标签，不是质量惩罚。"
+      },
+      "car_id": "car_demo_car",
+      "tune_id": "car_demo_car__tune__baseline_001__v00",
+      "dataset_group_id": "car_demo_car__group__unknown__unknown__unknown__baseline"
+    },
+    {
+      "session_id": "demo_udp_test",
+      "created_at": "2026-05-30T06:51:46+00:00",
+      "car_name": "demo car",
+      "car_ordinal": 0,
+      "car_class": "unknown",
+      "performance_index": 0,
+      "drivetrain": "AWD",
+      "car_group": 0,
+      "detected_car_ordinal": 0,
+      "detected_car_class": 0,
+      "detected_performance_index": 0,
+      "detected_drivetrain_type": 0,
+      "detected_drivetrain": "FWD",
+      "detected_num_cylinders": 0,
+      "detected_car_group": 0,
+      "use_case": "udp_demo",
+      "run_type": "normal_recording",
+      "survey_type": null,
+      "is_for_route_profile": false,
+      "survey_speed_note": "",
+      "route_name": "unknown",
+      "surface_type": "unknown",
+      "test_scenario": "unknown",
+      "purpose": "",
+      "purpose_tags": [],
+      "driver_input_style": "unknown",
+      "tune_name": "baseline_001",
+      "tune_version": "",
+      "duration_seconds": 0.624,
+      "packet_count": 40,
+      "estimated_sample_rate": 64.103,
+      "raw_csv_path": "data\\raw\\demo_udp_test.csv",
+      "processed_csv_path": "data\\processed\\demo_udp_test_processed.csv",
+      "plot_path": "reports\\demo_udp_test_timeseries.png",
+      "report_path": "reports\\demo_udp_test_report.md",
+      "dataset_path": null,
+      "tune_snapshot_path": "data\\sessions\\demo_udp_test_tune.json",
+      "metadata_path": "data\\sessions\\demo_udp_test_meta.json",
+      "notes": "local UDP demo generated by fh6_launcher",
+      "tags": [],
+      "intent_tags": [],
+      "behavior_tags": [],
+      "data_status_tags": [],
+      "quality_state_tags": [],
+      "handling_scores": {},
+      "subjective_scores": {},
+      "review_notes": "",
+      "quality_status": "warning",
+      "quality_warnings": [
+        "duration is short",
+        "missing context: scenario, route, surface, purpose_or_tags"
+      ],
+      "metadata_completeness_score": 33.3,
+      "run_quality_score": 61.7,
+      "comparability_score": 56.6,
+      "modeling_readiness_score": 66.9,
+      "state_tag_counts": {
+        "idle": 0,
+        "stopped": 0,
+        "possible_pause": 0,
+        "recording_gap": 0,
+        "menu_or_no_data": 0
+      },
+      "detected_lap_count": 1,
+      "detected_lap_reset_count": 0,
+      "laps": [
+        {
+          "detected_lap_id": 1,
+          "lap_number_raw": 1,
+          "sample_count": 40,
+          "session_start_seconds": 0.0,
+          "session_end_seconds": 0.624,
+          "duration_seconds": 0.624
+        }
+      ],
+      "segments": [],
+      "quality": {
+        "packet_count": 40,
+        "duration_seconds": 0.624,
+        "estimated_sample_rate": 64.103,
+        "timestamp_start": 0.0,
+        "timestamp_end": 624.0,
+        "timestamp_gap_mean": 16.0,
+        "timestamp_gap_max": 16.0,
+        "large_gap_count": 0,
+        "is_race_on_ratio": 1.0,
+        "speed_valid_ratio": 1.0,
+        "zero_speed_ratio": 0.0,
+        "smashable_event_count": 0,
+        "rumble_strip_event_count": 0,
+        "puddle_event_count": 0,
+        "suspension_bottoming_count": 0,
+        "behavior_event_counts": {
+          "smashable": 0,
+          "rumble_strip": 0,
+          "puddle": 0,
+          "suspension_bottoming": 0
+        },
+        "state_tag_counts": {
+          "idle": 0,
+          "stopped": 0,
+          "possible_pause": 0,
+          "recording_gap": 0,
+          "menu_or_no_data": 0
+        },
+        "detected_lap_count": 1,
+        "detected_lap_reset_count": 0,
+        "lap_summaries": [
+          {
+            "detected_lap_id": 1,
+            "lap_number_raw": 1,
+            "sample_count": 40,
+            "session_start_seconds": 0.0,
+            "session_end_seconds": 0.624,
+            "duration_seconds": 0.624
+          }
+        ],
+        "missing_value_count": 0,
+        "detected_car_ordinal": 0,
+        "detected_car_class": 0,
+        "detected_performance_index": 0,
+        "detected_drivetrain_type": 0,
+        "detected_drivetrain": "FWD",
+        "detected_num_cylinders": 0,
+        "detected_car_group": 0,
+        "data_integrity_score": 85.0,
+        "run_quality_score": 61.7,
+        "modeling_readiness_score": 66.9,
+        "comparability_score": 56.6,
+        "quality_status": "warning",
+        "quality_warnings": [
+          "duration is short",
+          "missing context: scenario, route, surface, purpose_or_tags"
+        ],
+        "metadata_completeness_score": 33.3,
+        "context_fields": {
+          "vehicle": "demo car",
+          "tune": "baseline_001",
+          "scenario": null,
+          "route": null,
+          "surface": null,
+          "purpose_or_tags": null
+        },
+        "missing_context_fields": [
+          "scenario",
+          "route",
+          "surface",
+          "purpose_or_tags"
+        ],
+        "quality_definition": "质量表示数据是否有清楚上下文、能否被解释、能否比较、能否用于后续建模；推头、甩尾、打滑、失控属于行为标签，不是质量惩罚。"
+      },
+      "car_id": "car_demo_car",
+      "tune_id": "car_demo_car__tune__baseline_001__v00",
+      "dataset_group_id": "car_demo_car__group__unknown__unknown__unknown__baseline",
+      "status": "active",
+      "is_active": true
+    }
+  ]
+}

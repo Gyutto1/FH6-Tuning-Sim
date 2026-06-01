@@ -1,0 +1,52 @@
+{
+  "group": "route_type",
+  "name_zh": "路线类型",
+  "name_en": "Route Types",
+  "items": [
+    {
+      "key": "circuit",
+      "label_zh": "封闭赛道",
+      "label_en": "Circuit",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "sprint",
+      "label_zh": "点到点",
+      "label_en": "Sprint",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "open_route",
+      "label_zh": "开放路线",
+      "label_en": "Open Route",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "test_area",
+      "label_zh": "测试区域",
+      "label_en": "Test Area",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "unknown",
+      "label_zh": "未设置",
+      "label_en": "Unknown",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 999
+    }
+  ]
+}

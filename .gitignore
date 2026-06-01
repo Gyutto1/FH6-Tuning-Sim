@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Python virtual environments
+.venv/
+.venv2/
+.venv312/
+venv/
+
+# Public telemetry data is intentionally commit-ready for this project.
+data/cache/
+
+# SQLite databases are intentionally commit-ready. Backup files stay ignored below.
+!data/demo/
+!data/demo/fh6_demo.db
+
+# Generated media/logs/backups
+reports/*_timeseries.png
+*.bak.*
+*.log
+logs/
+
+# OS / IDE / distribution
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+tools/PortableGit/
+tools/PortableGit-*.exe
+dist/
+build/
+*.spec
+!FH6TuningSim.spec
+*.exe

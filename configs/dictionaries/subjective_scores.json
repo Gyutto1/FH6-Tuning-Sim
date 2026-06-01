@@ -1,0 +1,61 @@
+{
+  "group": "subjective_score",
+  "name_zh": "主观评分项",
+  "name_en": "Subjective Scores",
+  "items": [
+    {
+      "key": "steering_response",
+      "label_zh": "转向响应",
+      "label_en": "Steering Response",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "stability",
+      "label_zh": "稳定性",
+      "label_en": "Stability",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "exit_traction",
+      "label_zh": "出弯牵引",
+      "label_en": "Exit Traction",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "predictability",
+      "label_zh": "可预测性",
+      "label_en": "Predictability",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "recoverability",
+      "label_zh": "可恢复性",
+      "label_en": "Recoverability",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "ease_of_driving",
+      "label_zh": "好开程度",
+      "label_en": "Ease of Driving",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    }
+  ]
+}

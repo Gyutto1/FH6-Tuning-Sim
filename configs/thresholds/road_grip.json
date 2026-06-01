@@ -1,0 +1,10 @@
+{
+  "preset_name": "road_grip",
+  "understeer_front_slip_threshold": 0.75,
+  "understeer_front_rear_delta": 0.15,
+  "oversteer_rear_slip_threshold": 0.8,
+  "oversteer_front_rear_delta": 0.2,
+  "wheelspin_slip_ratio_threshold": 0.45,
+  "suspension_bottoming_threshold": 0.92
+}
+

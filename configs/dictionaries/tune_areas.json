@@ -1,0 +1,88 @@
+{
+  "group": "tune_area",
+  "name_zh": "调校区域",
+  "name_en": "Tune Areas",
+  "items": [
+    {
+      "key": "tires",
+      "label_zh": "轮胎",
+      "label_en": "Tires",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "gearing",
+      "label_zh": "齿比",
+      "label_en": "Gearing",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "alignment",
+      "label_zh": "定位",
+      "label_en": "Alignment",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "antiroll_bars",
+      "label_zh": "防倾杆",
+      "label_en": "Anti-roll Bars",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "springs",
+      "label_zh": "弹簧",
+      "label_en": "Springs",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "damping",
+      "label_zh": "阻尼",
+      "label_en": "Damping",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    },
+    {
+      "key": "aero",
+      "label_zh": "空气动力",
+      "label_en": "Aero",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 70
+    },
+    {
+      "key": "brakes",
+      "label_zh": "刹车",
+      "label_en": "Brakes",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 80
+    },
+    {
+      "key": "differential",
+      "label_zh": "差速器",
+      "label_en": "Differential",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 90
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "group": "handling_dimension",
+  "name_zh": "操控性维度",
+  "name_en": "Handling Dimensions",
+  "items": [
+    {
+      "key": "response",
+      "label_zh": "响应性",
+      "label_en": "Response",
+      "description_zh": "打方向后车是否愿意转",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "stability",
+      "label_zh": "稳定性",
+      "label_en": "Stability",
+      "description_zh": "高速、刹车、弯中是否稳定",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "predictability",
+      "label_zh": "可预测性",
+      "label_en": "Predictability",
+      "description_zh": "同样输入下车辆反应是否一致",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "recoverability",
+      "label_zh": "可恢复性",
+      "label_en": "Recoverability",
+      "description_zh": "失控后是否容易救回来",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "input_effort",
+      "label_zh": "输入负担",
+      "label_en": "Input Effort",
+      "description_zh": "是否需要频繁修正方向/油门/刹车",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    }
+  ]
+}

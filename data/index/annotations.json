@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "updated_at_utc": "2026-05-31T00:13:28+00:00",
+  "annotations": [
+    {
+      "annotation_id": "ann__run__demo_udp_test__manual",
+      "target_type": "run",
+      "target_id": "demo_udp_test",
+      "run_id": "demo_udp_test",
+      "start_time": null,
+      "end_time": null,
+      "tag_ids": [
+        "baseline"
+      ],
+      "source": "manual",
+      "confidence": 1.0,
+      "note": "",
+      "created_at_utc": "2026-05-30T22:18:30+00:00",
+      "updated_at_utc": "2026-05-31T00:13:28+00:00",
+      "is_active": true
+    }
+  ]
+}

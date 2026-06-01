@@ -1,0 +1,43 @@
+{
+  "group": "assist_type",
+  "name_zh": "辅助设置",
+  "name_en": "Assist Types",
+  "items": [
+    {
+      "key": "abs",
+      "label_zh": "ABS",
+      "label_en": "ABS",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "traction_control",
+      "label_zh": "牵引力控制",
+      "label_en": "Traction Control",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "stability_control",
+      "label_zh": "稳定控制",
+      "label_en": "Stability Control",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "shifting",
+      "label_zh": "换挡",
+      "label_en": "Shifting",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "group": "run_state_tag",
+  "name_zh": "记录状态标签",
+  "name_en": "Run State Tags",
+  "items": [
+    {
+      "key": "idle",
+      "label_zh": "空闲等待",
+      "label_en": "Idle",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "stopped",
+      "label_zh": "车辆静止",
+      "label_en": "Stopped",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "possible_pause",
+      "label_zh": "可能暂停",
+      "label_en": "Possible Pause",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "recording_gap",
+      "label_zh": "记录间隔",
+      "label_en": "Recording Gap",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "menu_or_no_data",
+      "label_zh": "菜单/无有效数据",
+      "label_en": "Menu or No Data",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    }
+  ]
+}

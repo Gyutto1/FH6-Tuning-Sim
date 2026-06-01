@@ -1,0 +1,16 @@
+{
+  "group": "input_style",
+  "name_zh": "输入风格",
+  "name_en": "Input Styles",
+  "items": [
+    {
+      "key": "controller",
+      "label_zh": "手柄",
+      "label_en": "Controller",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    }
+  ]
+}

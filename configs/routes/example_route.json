@@ -1,0 +1,7 @@
+{
+  "route_name": "example_route",
+  "surface_type": "asphalt",
+  "route_type": "circuit",
+  "notes": "Example route preset. Duplicate this file for real routes."
+}
+

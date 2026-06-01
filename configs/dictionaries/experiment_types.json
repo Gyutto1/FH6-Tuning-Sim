@@ -1,0 +1,52 @@
+{
+  "group": "experiment_type",
+  "name_zh": "实验类型",
+  "name_en": "Experiment Types",
+  "items": [
+    {
+      "key": "baseline",
+      "label_zh": "基准实验",
+      "label_en": "Baseline",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "single_variable_test",
+      "label_zh": "单变量测试",
+      "label_en": "Single Variable Test",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "handling_evaluation",
+      "label_zh": "操控性评估",
+      "label_en": "Handling Evaluation",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "model_training",
+      "label_zh": "模型训练数据",
+      "label_en": "Model Training",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "track_survey",
+      "label_zh": "赛道测量",
+      "label_en": "Track Survey",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    }
+  ]
+}

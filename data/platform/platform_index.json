@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-05-30T11:12:58+00:00",
+  "updated_at_utc": "2026-05-30T22:20:28+00:00",
+  "cars": [
+    {
+      "car_id": "car_demo_car",
+      "display_name": "demo car",
+      "car_ordinal": 0,
+      "car_class": 0,
+      "performance_index": 0,
+      "drivetrain": "FWD",
+      "car_group": 0,
+      "status": "active",
+      "tags": [],
+      "notes": "",
+      "tune_versions": [
+        {
+          "tune_id": "car_demo_car__tune__baseline_001__v00",
+          "name": "baseline_001",
+          "version": "v00",
+          "status": "active",
+          "tags": [],
+          "notes": "",
+          "use_case": "udp_demo",
+          "tune_snapshot_path": "data\\sessions\\demo_udp_test_tune.json",
+          "created_at_utc": "2026-05-30T11:12:58+00:00",
+          "updated_at_utc": "2026-05-30T22:20:28+00:00"
+        }
+      ],
+      "dataset_groups": [
+        {
+          "dataset_group_id": "car_demo_car__group__unknown__unknown__unknown__baseline",
+          "name": "未设置 / unknown / 基准",
+          "scenario_key": "unknown",
+          "purpose": "baseline",
+          "purpose_tags": [],
+          "route_name": "unknown",
+          "surface_type": "unknown",
+          "tune_ids": [
+            "car_demo_car__tune__baseline_001__v00"
+          ],
+          "run_ids": [
+            "demo_udp",
+            "demo_udp_test"
+          ],
+          "segments": [],
+          "status": "active",
+          "tags": [],
+          "notes": "",
+          "created_at_utc": "2026-05-30T11:12:58+00:00",
+          "updated_at_utc": "2026-05-30T22:20:28+00:00"
+        }
+      ],
+      "created_at_utc": "2026-05-30T11:12:58+00:00",
+      "updated_at_utc": "2026-05-30T22:20:28+00:00"
+    },
+    {
+      "car_id": "car_ordinal_4265",
+      "display_name": "Mercedes-AMG GT",
+      "car_ordinal": 4265,
+      "car_class": 5,
+      "performance_index": 900,
+      "drivetrain": "RWD",
+      "car_group": 43,
+      "status": "active",
+      "tags": [],
+      "notes": "",
+      "tune_versions": [
+        {
+          "tune_id": "car_ordinal_4265__tune__stock_default__v00",
+          "name": "stock_default",
+          "version": "v00",
+          "status": "active",
+          "tags": [],
+          "notes": "",
+          "use_case": "road_grip",
+          "tune_snapshot_path": "data\\sessions\\20260530_080256_road_test_tune.json",
+          "created_at_utc": "2026-05-30T11:12:58+00:00",
+          "updated_at_utc": "2026-05-30T22:20:28+00:00"
+        }
+      ],
+      "dataset_groups": [
+        {
+          "dataset_group_id": "car_ordinal_4265__group__unknown__unknown__unknown__baseline",
+          "name": "未设置 / unknown / 基准",
+          "scenario_key": "unknown",
+          "purpose": "baseline",
+          "purpose_tags": [],
+          "route_name": "unknown",
+          "surface_type": "unknown",
+          "tune_ids": [
+            "car_ordinal_4265__tune__stock_default__v00"
+          ],
+          "run_ids": [
+            "20260530_080256_road_test",
+            "20260530_082410_road_test"
+          ],
+          "segments": [],
+          "status": "active",
+          "tags": [],
+          "notes": "",
+          "created_at_utc": "2026-05-30T11:12:58+00:00",
+          "updated_at_utc": "2026-05-30T22:20:28+00:00"
+        }
+      ],
+      "created_at_utc": "2026-05-30T11:12:58+00:00",
+      "updated_at_utc": "2026-05-30T22:20:28+00:00"
+    }
+  ],
+  "run_reviews": {},
+  "archived": {}
+}

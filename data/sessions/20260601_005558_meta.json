@@ -1,0 +1,19 @@
+{
+  "car_id": "car_ordinal_4265",
+  "build_id": "car_ordinal_4265__build__default_stock_build_draft_20260531_233306+0000",
+  "tune_id": "car_ordinal_4265__build__default_stock_build_draft_20260531_233306+0000__tune__baseline_tune__v00",
+  "setup_snapshot_id": "car_ordinal_4265__setup__car_ordinal_4265_build_default_stock_build_draft__car_ordinal_4265_build_default_stock_build_draft__default",
+  "route_id": null,
+  "route_mode": "timed_route",
+  "record_type": "full_lap",
+  "intent_tags": [],
+  "notes": "",
+  "session_id": "20260601_005558",
+  "started_at_utc": "2026-05-31T23:55:58+00:00",
+  "data_out_host": "127.0.0.1",
+  "data_out_port": 9999,
+  "packet_size_bytes": 324,
+  "raw_csv": "C:\\Users\\12591\\Documents\\FH6\\data\\raw\\20260601_005558.csv",
+  "ended_at_utc": "2026-06-01T00:03:15+00:00",
+  "rows_written": 16820
+}

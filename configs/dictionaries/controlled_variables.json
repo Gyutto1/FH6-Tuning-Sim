@@ -1,0 +1,70 @@
+{
+  "group": "controlled_variable",
+  "name_zh": "控制变量",
+  "name_en": "Controlled Variables",
+  "items": [
+    {
+      "key": "none",
+      "label_zh": "无",
+      "label_en": "None",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "front_antiroll_bar",
+      "label_zh": "前防倾杆",
+      "label_en": "Front Anti-roll Bar",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "rear_antiroll_bar",
+      "label_zh": "后防倾杆",
+      "label_en": "Rear Anti-roll Bar",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "front_tire_pressure",
+      "label_zh": "前胎压",
+      "label_en": "Front Tire Pressure",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "rear_tire_pressure",
+      "label_zh": "后胎压",
+      "label_en": "Rear Tire Pressure",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "rear_diff_accel",
+      "label_zh": "后差速加速",
+      "label_en": "Rear Diff Accel",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    },
+    {
+      "key": "brake_balance",
+      "label_zh": "刹车平衡",
+      "label_en": "Brake Balance",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 70
+    }
+  ]
+}

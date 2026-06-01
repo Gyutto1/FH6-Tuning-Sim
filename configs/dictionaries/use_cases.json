@@ -1,0 +1,52 @@
+{
+  "group": "use_case",
+  "name_zh": "用途类型",
+  "name_en": "Use Cases",
+  "items": [
+    {
+      "key": "road_grip",
+      "label_zh": "公路抓地",
+      "label_en": "Road Grip",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "drift",
+      "label_zh": "漂移",
+      "label_en": "Drift",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "rally",
+      "label_zh": "拉力",
+      "label_en": "Rally",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "drag",
+      "label_zh": "直线加速",
+      "label_en": "Drag",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "general",
+      "label_zh": "通用测试",
+      "label_en": "General Test",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    }
+  ]
+}

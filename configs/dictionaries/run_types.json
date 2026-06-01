@@ -1,0 +1,43 @@
+{
+  "group": "run_type",
+  "name_zh": "记录类型",
+  "name_en": "Run Types",
+  "items": [
+    {
+      "key": "normal_recording",
+      "label_zh": "普通记录",
+      "label_en": "Normal Recording",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "tune_test",
+      "label_zh": "调校测试",
+      "label_en": "Tune Test",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "full_lap",
+      "label_zh": "完整跑圈",
+      "label_en": "Full Lap",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "track_boundary_survey",
+      "label_zh": "赛道边界测量",
+      "label_en": "Track Boundary Survey",
+      "description_zh": "用于建立路线边界和 Route Profile，不参与默认圈速评价",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    }
+  ]
+}

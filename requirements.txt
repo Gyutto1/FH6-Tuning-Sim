@@ -1,0 +1,6 @@
+﻿pandas>=2.0
+matplotlib>=3.8
+numpy>=1.24
+pyarrow>=14.0
+PySide6>=6.8
+pyinstaller>=6.0

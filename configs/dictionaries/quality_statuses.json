@@ -1,0 +1,70 @@
+{
+  "group": "quality_status",
+  "name_zh": "质量状态",
+  "name_en": "Quality Statuses",
+  "items": [
+    {
+      "key": "draft",
+      "label_zh": "草稿",
+      "label_en": "Draft",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "usable",
+      "label_zh": "可用",
+      "label_en": "Usable",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "good",
+      "label_zh": "良好",
+      "label_en": "Good",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "warning",
+      "label_zh": "注意",
+      "label_en": "Warning",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "bad",
+      "label_zh": "较差",
+      "label_en": "Bad",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "archived",
+      "label_zh": "已归档",
+      "label_en": "Archived",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    },
+    {
+      "key": "unknown",
+      "label_zh": "未知",
+      "label_en": "Unknown",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 70
+    }
+  ]
+}

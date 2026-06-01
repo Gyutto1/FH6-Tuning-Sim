@@ -1,0 +1,25 @@
+{
+  "group": "assists_shifting",
+  "name_zh": "换挡模式",
+  "name_en": "Shifting Modes",
+  "items": [
+    {
+      "key": "manual",
+      "label_zh": "手动",
+      "label_en": "Manual",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "auto",
+      "label_zh": "自动",
+      "label_en": "Auto",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    }
+  ]
+}

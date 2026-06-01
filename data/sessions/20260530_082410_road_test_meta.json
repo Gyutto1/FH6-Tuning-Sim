@@ -1,0 +1,20 @@
+{
+  "session_id": "20260530_082410_road_test",
+  "game": "Forza Horizon 6",
+  "data_out_host": "127.0.0.1",
+  "data_out_port": 9999,
+  "packet_size_bytes": 324,
+  "official_doc_url": "https://support.forza.net/hc/en-us/articles/51744149102611-Forza-Horizon-6-Data-Out-Documentation",
+  "notes": "baseline run",
+  "car_name": "Mercedes-AMG GT",
+  "car_ordinal": null,
+  "car_class": "unknown",
+  "performance_index": null,
+  "drivetrain": "RWD",
+  "use_case": "road_grip",
+  "tune_name": "stock_default",
+  "started_at_utc": "2026-05-30T07:24:10+00:00",
+  "raw_csv": "C:\\Users\\12591\\Documents\\FH6\\data\\raw\\20260530_082410_road_test.csv",
+  "ended_at_utc": "2026-05-30T07:39:12+00:00",
+  "rows_written": 41316
+}

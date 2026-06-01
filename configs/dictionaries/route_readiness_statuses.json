@@ -1,0 +1,43 @@
+{
+  "group": "route_readiness_status",
+  "name_zh": "路线测量准备度",
+  "name_en": "Route Readiness Statuses",
+  "items": [
+    {
+      "key": "not_started",
+      "label_zh": "未开始",
+      "label_en": "Not Started",
+      "description_zh": "还没有可用于安全行驶走廊草稿的测量数据",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "insufficient",
+      "label_zh": "测量不足",
+      "label_en": "Insufficient",
+      "description_zh": "测量数量不足，暂不建议生成走廊草稿",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "draft_available",
+      "label_zh": "草稿可用",
+      "label_en": "Draft Available",
+      "description_zh": "已有基本测量，可生成可行驶走廊草稿",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "complete_enough",
+      "label_zh": "较完整",
+      "label_en": "Complete Enough",
+      "description_zh": "左右边界和参考线测量较完整",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "group": "test_scenario",
+  "name_zh": "测试场景",
+  "name_en": "Test Scenarios",
+  "items": [
+    {
+      "key": "free_drive",
+      "label_zh": "自由驾驶",
+      "label_en": "Free Drive",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "full_lap",
+      "label_zh": "完整跑圈",
+      "label_en": "Full Lap",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "lap_run",
+      "label_zh": "计时圈",
+      "label_en": "Lap Run",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "straight_acceleration",
+      "label_zh": "直线加速",
+      "label_en": "Straight Acceleration",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "heavy_braking",
+      "label_zh": "重刹测试",
+      "label_en": "Heavy Braking",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "steady_cornering",
+      "label_zh": "稳态过弯",
+      "label_en": "Steady Cornering",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "low_speed_corner",
+      "label_zh": "低速弯",
+      "label_en": "Low-speed Corner",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "rally",
+      "label_zh": "拉力",
+      "label_en": "Rally",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "medium_speed_corner",
+      "label_zh": "中速弯",
+      "label_en": "Medium-speed Corner",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    },
+    {
+      "key": "high_speed_corner",
+      "label_zh": "高速弯",
+      "label_en": "High-speed Corner",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 70
+    },
+    {
+      "key": "corner_entry",
+      "label_zh": "入弯",
+      "label_en": "Corner Entry",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 80
+    },
+    {
+      "key": "corner_mid",
+      "label_zh": "弯中",
+      "label_en": "Corner Mid",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 90
+    },
+    {
+      "key": "corner_exit",
+      "label_zh": "出弯",
+      "label_en": "Corner Exit",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 100
+    },
+    {
+      "key": "kerb_bump",
+      "label_zh": "路肩/颠簸",
+      "label_en": "Kerb / Bump",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 110
+    },
+    {
+      "key": "rally_surface",
+      "label_zh": "拉力/低抓地路面",
+      "label_en": "Rally / Low Grip Surface",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 120
+    },
+    {
+      "key": "track_boundary_survey",
+      "label_zh": "赛道边界测量",
+      "label_en": "Track Boundary Survey",
+      "description_zh": "用于建立 Route Profile / 可行驶走廊，不用于圈速评价",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 130
+    },
+    {
+      "key": "unknown",
+      "label_zh": "未设置",
+      "label_en": "Unknown",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 999
+    }
+  ]
+}

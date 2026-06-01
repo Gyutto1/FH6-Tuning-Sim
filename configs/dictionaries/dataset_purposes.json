@@ -1,0 +1,70 @@
+{
+  "group": "dataset_purpose",
+  "name_zh": "实验目的",
+  "name_en": "Dataset Purposes",
+  "items": [
+    {
+      "key": "baseline",
+      "label_zh": "基准",
+      "label_en": "Baseline",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "intentional_understeer",
+      "label_zh": "故意推头",
+      "label_en": "Intentional Understeer",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "intentional_oversteer",
+      "label_zh": "故意甩尾",
+      "label_en": "Intentional Oversteer",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "front_antiroll_bar_test",
+      "label_zh": "前防倾杆测试",
+      "label_en": "Front Anti-roll Bar Test",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "rear_diff_test",
+      "label_zh": "后差速器测试",
+      "label_en": "Rear Differential Test",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "model_training",
+      "label_zh": "模型训练",
+      "label_en": "Model Training",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    },
+    {
+      "key": "handling_evaluation",
+      "label_zh": "操控性评估",
+      "label_en": "Handling Evaluation",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 70
+    }
+  ]
+}

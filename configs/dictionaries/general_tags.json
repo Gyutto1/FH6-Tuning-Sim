@@ -1,0 +1,43 @@
+{
+  "group": "general_tag",
+  "name_zh": "通用标签",
+  "name_en": "General Tags",
+  "items": [
+    {
+      "key": "baseline",
+      "label_zh": "基准",
+      "label_en": "Baseline",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "model_training",
+      "label_zh": "模型训练",
+      "label_en": "Model Training",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "handling_evaluation",
+      "label_zh": "操控性评估",
+      "label_en": "Handling Evaluation",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "needs_review",
+      "label_zh": "需要复查",
+      "label_en": "Needs Review",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    }
+  ]
+}

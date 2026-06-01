@@ -1,0 +1,43 @@
+{
+  "group": "drivetrain",
+  "name_zh": "驱动形式",
+  "name_en": "Drivetrain Types",
+  "items": [
+    {
+      "key": "FWD",
+      "label_zh": "前驱",
+      "label_en": "FWD",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "RWD",
+      "label_zh": "后驱",
+      "label_en": "RWD",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "AWD",
+      "label_zh": "四驱",
+      "label_en": "AWD",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "unknown",
+      "label_zh": "未知",
+      "label_en": "Unknown",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    }
+  ]
+}

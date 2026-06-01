@@ -1,0 +1,61 @@
+{
+  "group": "data_status",
+  "name_zh": "数据状态",
+  "name_en": "Data Statuses",
+  "items": [
+    {
+      "key": "normal",
+      "label_zh": "正常",
+      "label_en": "Normal",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "has_pause",
+      "label_zh": "有暂停",
+      "label_en": "Has Pause",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "has_collision",
+      "label_zh": "有撞击",
+      "label_en": "Has Collision",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "incomplete_route",
+      "label_zh": "路线不完整",
+      "label_en": "Incomplete Route",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "long_zero_speed",
+      "label_zh": "速度长时间为 0",
+      "label_en": "Long Zero Speed",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "uncertain",
+      "label_zh": "不确定",
+      "label_en": "Uncertain",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    }
+  ]
+}

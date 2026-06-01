@@ -1,0 +1,61 @@
+{
+  "group": "surface_type",
+  "name_zh": "路面类型",
+  "name_en": "Surface Types",
+  "items": [
+    {
+      "key": "asphalt",
+      "label_zh": "沥青路",
+      "label_en": "Asphalt",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "dirt",
+      "label_zh": "泥地",
+      "label_en": "Dirt",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "mixed",
+      "label_zh": "混合路面",
+      "label_en": "Mixed",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "snow",
+      "label_zh": "雪地",
+      "label_en": "Snow",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "wet",
+      "label_zh": "湿地",
+      "label_en": "Wet",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "unknown",
+      "label_zh": "未知",
+      "label_en": "Unknown",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "group": "route",
+  "name_zh": "路线",
+  "name_en": "Routes",
+  "items": [
+    {
+      "key": "horizon_highway_loop",
+      "label_zh": "高速环线",
+      "label_en": "Horizon Highway Loop",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "custom_route",
+      "label_zh": "自定义路线",
+      "label_en": "Custom Route",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "unknown",
+      "label_zh": "未设置",
+      "label_en": "Unknown",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 999
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "group": "behavior_tag",
+  "name_zh": "车辆行为标签",
+  "name_en": "Behavior Tags",
+  "items": [
+    {
+      "key": "understeer",
+      "label_zh": "推头",
+      "label_en": "Understeer",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "oversteer",
+      "label_zh": "甩尾",
+      "label_en": "Oversteer",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "exit_wheelspin",
+      "label_zh": "出弯打滑",
+      "label_en": "Exit Wheelspin",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "braking_instability",
+      "label_zh": "刹车不稳",
+      "label_en": "Braking Instability",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "suspension_bottoming",
+      "label_zh": "悬挂到底",
+      "label_en": "Suspension Bottoming",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "key": "high_speed_instability",
+      "label_zh": "高速不稳",
+      "label_en": "High-speed Instability",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 60
+    },
+    {
+      "key": "no_obvious_issue",
+      "label_zh": "没有明显问题",
+      "label_en": "No Obvious Issue",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 70
+    }
+  ]
+}

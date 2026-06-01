@@ -1,0 +1,52 @@
+{
+  "group": "survey_type",
+  "name_zh": "赛道测量类型",
+  "name_en": "Survey Types",
+  "items": [
+    {
+      "key": "left_boundary",
+      "label_zh": "左边界",
+      "label_en": "Left Boundary",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "key": "right_boundary",
+      "label_zh": "右边界",
+      "label_en": "Right Boundary",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 20
+    },
+    {
+      "key": "reference_line",
+      "label_zh": "参考线",
+      "label_en": "Reference Line",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 30
+    },
+    {
+      "key": "kerb_or_optional_area",
+      "label_zh": "可压路肩/可选区域",
+      "label_en": "Kerb or Optional Area",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 40
+    },
+    {
+      "key": "invalid_area_probe",
+      "label_zh": "无效区域探测",
+      "label_en": "Invalid Area Probe",
+      "description_zh": "",
+      "description_en": "",
+      "is_active": true,
+      "sort_order": 50
+    }
+  ]
+}
