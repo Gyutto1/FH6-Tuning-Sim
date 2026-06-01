@@ -5,6 +5,10 @@ import sys
 from PyInstaller.utils.hooks import collect_submodules
 
 extra_binaries = []
+extra_datas = [
+    ("configs", "configs"),
+    ("data", "data"),
+]
 
 # Conda-based Python runtime dependencies that PyInstaller does not always detect.
 conda_bin = Path(sys.base_prefix) / "Library" / "bin"
@@ -30,18 +34,22 @@ for dll_name in ("libffi-8.dll", "libwinpthread-1.dll", "libgcc_s_seh-1.dll"):
     if dll_path.exists():
         extra_binaries.append((str(dll_path), "."))
 
+# Ensure Qt platform plugin is present for packaged startup.
+pyside_plugins = Path(".venv/Lib/site-packages/PySide6/plugins")
+for plugin_dir in ("platforms", "styles", "imageformats"):
+    src = pyside_plugins / plugin_dir
+    if src.exists():
+        extra_datas.append((str(src), f"PySide6/plugins/{plugin_dir}"))
+
 a = Analysis(
     ["fh6_tuning_sim/ui_desktop/app.py"],
     pathex=["."],
     binaries=extra_binaries,
-    datas=[
-        ("configs", "configs"),
-        ("data", "data"),
-    ],
+    datas=extra_datas,
     hiddenimports=collect_submodules("fh6_tuning_sim"),
     hookspath=[],
     hooksconfig={},
-    runtime_hooks=[],
+    runtime_hooks=["pyi_rth_qt_plugins.py"],
     excludes=[],
     noarchive=False,
 )
@@ -63,7 +71,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    contents_directory=".",
+    contents_directory="_internal",
 )
 coll = COLLECT(
     exe,
