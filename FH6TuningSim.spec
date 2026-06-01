@@ -8,6 +8,7 @@ extra_binaries = []
 extra_datas = [
     ("configs", "configs"),
     ("data", "data"),
+    ("fh6_tuning_sim/db/schema.sql", "fh6_tuning_sim/db"),
 ]
 
 # Conda-based Python runtime dependencies that PyInstaller does not always detect.

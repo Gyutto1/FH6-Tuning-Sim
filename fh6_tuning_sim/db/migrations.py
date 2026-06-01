@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from importlib import resources
 from pathlib import Path
 
 from fh6_tuning_sim.db.connection import DEFAULT_DB_PATH, connect
@@ -7,9 +8,15 @@ from fh6_tuning_sim.db.connection import DEFAULT_DB_PATH, connect
 SCHEMA_PATH = Path(__file__).resolve().with_name("schema.sql")
 
 
+def _read_schema_text() -> str:
+    if SCHEMA_PATH.exists():
+        return SCHEMA_PATH.read_text(encoding="utf-8")
+    return resources.files("fh6_tuning_sim.db").joinpath("schema.sql").read_text(encoding="utf-8")
+
+
 def init_schema(db_path: str | Path = DEFAULT_DB_PATH, *, run_migrations: bool = True) -> None:
     """Create the current SQLite schema idempotently."""
-    schema = SCHEMA_PATH.read_text(encoding="utf-8")
+    schema = _read_schema_text()
     conn = connect(db_path)
     try:
         conn.executescript(schema)

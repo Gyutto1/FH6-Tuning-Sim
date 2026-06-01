@@ -58,4 +58,3 @@ def ensure_database_from_seed(db_path: str | Path) -> bool:
             shutil.copy2(candidate, target)
             return True
     return False
-
